@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 body {
-  /* border: 1px solid red; */
   width: 100vw;
   height: 100vh;
 }
@@ -19,13 +18,11 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  /* border: 5px solid yellow; */
   background-color: var(--box-background-color);
 }
 .box {
   display: flex;
   flex: 1;
-  /* border: 5px solid yellow; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -37,7 +34,6 @@ form {
   align-items: center;
   height: 50vh;
   width: 65%;
-  /* border: 5px solid yellow; */
 }
 #splash {
   background-image: url(unsplash_wJoB8D3hnzc.jpg);
@@ -64,10 +60,6 @@ input {
 ::placeholder {
   color: var(--placeholder-color);
 }
-button:hover {
-  background-color: #285e61;
-  color: white;
-}
 button {
   height: 7vh;
   width: 25vw;
@@ -80,10 +72,4 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.break {
-  height: 18vh;
-  justify-content: space-around;
-  display: flex;
-  flex-direction: column;
 }
