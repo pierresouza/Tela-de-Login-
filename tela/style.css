@@ -43,11 +43,14 @@ form {
   flex: 1;
 }
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: aliceblue;
   display: flex;
   justify-content: flex-start;
   width: 65%;
+  color: aliceblue;
+  padding-left: 72px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+
 }
 input {
   height: 7vh;
@@ -56,17 +59,21 @@ input {
   display: flex;
   margin-bottom: -25px;
   background-color: var(--input-color);
+  padding: 36px 0px 36px 20px;
+  font-size: 20px;
 }
 ::placeholder {
   color: var(--placeholder-color);
-   padding: 36px 0 36px 20px;
+   padding: 36px 0px 36px 0px;
+   font-size: 20px;
 }
 button {
   height: 7vh;
   width: 25vw;
   justify-content: end;
   border-radius: 12px;
-  transition: background 1s;
+  background: #285E61;
+  cursor: pointer;
 }
 #forget {
   color: black;
